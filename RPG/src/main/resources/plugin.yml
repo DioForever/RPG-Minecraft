@@ -1,0 +1,28 @@
+name: RPG
+version: '${project.version}'
+main: me.dioforever.rpg.Main
+api-version: 1.17
+authors: [ DioForever ]
+commands:
+  preload:
+    description: Reloads configs
+  message:
+    description: Test
+  menu:
+    description: Opens up menu
+  races:
+    description: Opens a Menu where you can chose your race!
+  updates:
+    description: Writes down newest features of RPG plugin
+  guild:
+    description: Write /Guild create <NameOfGuild> to create a Guild!
+  guild create:
+    description: Creates Guild
+  guild invite:
+    description: Invites person to a guild
+  guild join:
+    description: Joins guild
+  guild leave:
+    description: Leaves guild
+  Seth:
+    description: Summons seth
